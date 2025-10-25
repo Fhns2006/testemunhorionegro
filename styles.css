@@ -1,0 +1,139 @@
+* {
+    background-color: #00ffff;
+}
+
+.titulo {
+    text-align: center;
+    color: #040201;
+    font-family: 'Arial Black', Gadget, sans-serif;
+    font-size: 40px;
+}
+
+.tituloinicio {
+    text-align: center;
+    color: #040201;
+    font-family: 'Arial Black', Gadget, sans-serif;
+    font-size: 30px;
+}
+
+.tituloinicio2 {
+    text-align: center;
+    color: #040201;
+    font-family: 'Arial Black', Gadget, sans-serif;
+    font-size: 20px;
+    margin-top: 70px;
+}
+
+.Tabela {
+    max-width: 800px; 
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    margin-left: 420px;
+}
+
+.Botao1 {
+    text-align: center;
+    text-decoration: none;
+    border: 4px outset #ff6550;
+    background: #56c6c4;
+}   
+
+.bordatabela {
+    border: none; /* Remove qualquer borda visual */
+    margin: 0; /* Remove margens externas */
+    padding: 0; /* Remove margens internas */
+    display: block;
+}
+
+.container {
+    max-width: 90%; 
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center; 
+    padding: 20px; 
+}
+
+.meu-botao {
+    border-radius: 20px; 
+    border: none;
+    background-color: #4CAF50; 
+    color: white; 
+    padding: 15px 30px; 
+    font-weight: bold;             
+    cursor: pointer; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+.meu-botao:hover {
+    background-color: #45a049; 
+    transform: translateY(-2px); 
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Telas pequenas: celulares */
+@media (max-width: 600px) {
+  .tituloinicio {
+    font-size: 22px;
+    padding: 10px;
+  }
+
+  .tituloinicio2 {
+    font-size: 18px;
+    margin-top: 40px;
+  }
+
+  .titulo {
+    font-size: 28px;
+    padding: 10px;
+  }
+
+  .container {
+    padding: 10px;
+  }
+
+  .meu-botao {
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 20px;
+  }
+
+  .Tabela {
+    margin: 0 auto;
+    padding: 10px;
+  }
+
+  .bordatabela {
+    width: 95%;
+    height: 500px;
+  }
+}
+
+/* Telas médias: tablets */
+@media (min-width: 601px) and (max-width: 1024px) {
+  .tituloinicio {
+    font-size: 26px;
+  }
+
+  .tituloinicio2 {
+    font-size: 20px;
+  }
+
+  .titulo {
+    font-size: 32px;
+  }
+
+  .meu-botao {
+    width: 80%;
+    font-size: 17px;
+  }
+
+  .Tabela {
+    padding: 20px;
+  }
+
+  .bordatabela {
+    width: 100%;
+    height: 80vh;
+  }
+}
