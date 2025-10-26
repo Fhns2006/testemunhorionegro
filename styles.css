@@ -71,6 +71,24 @@
     box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
 }
 
+.informacoes {
+    text-align: center;
+    color: #040201;
+    font-family: monospace;
+    font-size: 18px;
+    margin-top: 20px;
+    padding: 25px;
+}
+
+.carrinho {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: auto;
+    margin-top: 30px;
+}
+
 /* Telas pequenas: celulares */
 @media (max-width: 600px) {
   .tituloinicio {
